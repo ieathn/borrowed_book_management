@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="seq_library_book_copy" model="ir.sequence">
+        <field name="name">Library Book Copy</field>
+        <field name="code">library.book.copy</field>
+        <field name="prefix">BC</field>
+        <field name="padding">4</field>
+    </record>
+
+    <record id="seq_library_loan" model="ir.sequence">
+        <field name="name">Library Loan</field>
+        <field name="code">library.loan</field>
+        <field name="prefix">LN</field>
+        <field name="padding">5</field>
+    </record>
+
+    <record id="seq_library_reservation" model="ir.sequence">
+        <field name="name">Library Reservation</field>
+        <field name="code">library.reservation</field>
+        <field name="prefix">RSV</field>
+        <field name="padding">5</field>
+    </record>
+
+    <record id="seq_library_fine" model="ir.sequence">
+        <field name="name">Library Fine</field>
+        <field name="code">library.fine</field>
+        <field name="prefix">FN</field>
+        <field name="padding">5</field>
+    </record>
+</odoo>
