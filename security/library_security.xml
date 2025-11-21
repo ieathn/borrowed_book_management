@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Group for library managers -->
+    <record id="group_library_manager" model="res.groups">
+        <field name="name">Library Manager</field>
+        <field name="category_id" ref="base.module_category_hidden"/>
+    </record>
+
+    <!-- Optional: group for normal library users (portal users / employees) -->
+    <record id="group_library_user" model="res.groups">
+        <field name="name">Library User</field>
+        <field name="category_id" ref="base.module_category_hidden"/>
+    </record>
+</odoo>
